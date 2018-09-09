@@ -30,9 +30,9 @@ if current_key == key:
     print '%s\t%s' % (current_key, current_count)
 
 
-hadoop
-
-
-hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -input /user/ds222/assignment-1/DBPedia.full/full_train.txt -output output -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py
-
- /user/ds222/assignment-1/DBPedia.full/
+# hadoop
+#
+#
+# hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -input /user/ds222/assignment-1/DBPedia.full/full_train.txt -output output -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py
+# 
+#  /user/ds222/assignment-1/DBPedia.full/
