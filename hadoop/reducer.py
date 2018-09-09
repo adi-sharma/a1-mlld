@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from operator import itemgetter
 import sys
 
@@ -34,5 +36,5 @@ if current_key == key:
 #
 #
 # hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -input /user/ds222/assignment-1/DBPedia.full/full_train.txt -output output -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py
-# 
+#
 #  /user/ds222/assignment-1/DBPedia.full/
