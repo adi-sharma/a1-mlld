@@ -53,7 +53,7 @@ numCorrect = 0.0
 numWrong = 0.0
 Vsize = 300000
 
-testfile = open("part-00000", "r")
+testfile = open("/scratch/ds222-2017/assignment-1/DBPedia.full/full_test.txt", "r")
 for line in testfile.readlines():
 # for line in sys.stdin:
     tabsplit = line.strip().split('\t', 2)
