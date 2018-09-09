@@ -1,1 +1,1 @@
-hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -input /user/ds222/assignment-1/DBPedia.full/full_train.txt -output output -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py
+hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -input /user/ds222/assignment-1/DBPedia.full/full_train.txt -output output -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -numReduceTasks 2
